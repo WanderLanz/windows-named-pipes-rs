@@ -1,0 +1,3 @@
+#:schema https://taplo.tamasfe.dev/rust-toolchain.toml.json
+[toolchain]
+channel = "nightly"

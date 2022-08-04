@@ -1,0 +1,21 @@
+[package]
+name = "windows-named-pipes"
+version = "0.1.0"
+edition = "2021"
+description = "Completely irresponsible, unprofessional, and amateur library for Win32 Named Pipes with windows.rs"
+
+[features]
+stdio = []
+
+[dependencies.windows]
+version = "0.39"
+features = [
+        "Win32_Foundation",
+        "Win32_Security",
+        "Win32_System_Threading",
+        "Win32_System_Diagnostics_ToolHelp",
+        "Win32_System_Pipes",
+        "Win32_Storage_FileSystem",
+        "Win32_System_IO",
+        "Win32_System_Console",
+]
